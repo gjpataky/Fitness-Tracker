@@ -1,8 +1,8 @@
 const express = require("express");
 const logger = require("morgan");
-const mongoose = require("mongoose");
 var mongoose = require("mongoose");
-var MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/workout";
+var MONGODB_URI =
+  process.env.MONGODB_URL || "mongodb://localhost/heroku_5phjjkjj";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
